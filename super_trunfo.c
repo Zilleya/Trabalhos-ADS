@@ -1,28 +1,22 @@
 #include <stdio.h>
 
 int main(){
-    char cod1[7];
-    char cod2 [7];
-    char estd1[50]; 
-    char estd2[50]; 
-    char cdd1[80]; 
-    char cdd2[80];
+    char cod1[7], cod2 [7];
+    char estd1[50], estd2[50]; 
+    char cdd1[80], cdd2[80];
     int ppl1, ppl2;
     float area1, area2;
     float pib1, pib2;
     int ponto1, ponto2;
 
     printf("Digite dois codigos de carta:\n");
-    scanf("%6s",&cod1);
-    scanf("%6s",&cod2);
+    scanf("%s %s",cod1, cod2);
 
     printf("Digite dois estados:\n");
-    scanf("%49s",&estd1);
-    scanf("%49s",&estd2);
+    scanf("%s &s",&estd1, estd2);
 
     printf("Digite duas cidades:\n");
-    scanf("%79s",&cdd1);
-    scanf("%79s",&cdd2);
+    scanf("%s %s",cdd1, cdd2);
 
     printf("Digite dois numeros de populacao:\n");
     scanf("%d",&ppl1);
