@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    char cod1, cod2[7];
-    char estd1, estd2[50]; 
-    char cdd1, cdd2[80];
+    char cod1[7];
+    char cod2[7];
+    char estd1[50];
+    char estd2[50]; 
+    char cdd1[80];
+    char cdd2[80];
     int ppl1, ppl2;
     float area1, area2;
     float pib1, pib2;
