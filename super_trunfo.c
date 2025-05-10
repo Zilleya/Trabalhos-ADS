@@ -53,10 +53,27 @@ int main(){
     printf("Numero de pontos turisticos: %d\n",ponto2);
 
     //comparando cartas
-if(pib1>pib2){
-    printf("vencedor: carta %s\n",cod1);
-}else{
-    printf("vencedor:carta %s\n",cod2);
-}
+    densidd1 = ppl1 / area1;
+    densidd2 = ppl2 / area2;
+    capita1 = pib1 / ppl1;
+    capita2 = pib2 / ppl2;
+    
+    printf("\nDensidade populacional carta um: %.2f\n",densidd1);
+    printf("Pib per capita carta um: %.2f\n",capita1);
+    printf("Densidade populacional carta dois: %.2f\n",densidd2);
+    printf("Pib per capita carta dois: %.2f\n",capita2);
+    
+    if (capita1>capita2)
+    {
+    printf("\nResultado: carta %s\n",cod1);
+    }else{
+    printf("Resultado: carta %s\n",cod2);
+    }
+    
+    if (densidd1<densidd2){
+    printf("Vencedor: %s %s\n", cdd1,estd1);
+    }else{
+    printf("Vencedor: %s %s\n",cdd2,estd2);
+    }
     return 0;
 }
