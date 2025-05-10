@@ -52,6 +52,7 @@ int main(){
     printf("Pib: %.2f\n",pib2);
     printf("Numero de pontos turisticos: %d\n",ponto2);
 
+    //comparando cartas
 if(pib1>pib2){
     printf("vencedor: carta %s\n",cod1);
 }else{
